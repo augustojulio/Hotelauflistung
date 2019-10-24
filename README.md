@@ -1,2 +1,2 @@
-# Hotelreservierung
+# Hotelauflistung
 hotel listing
