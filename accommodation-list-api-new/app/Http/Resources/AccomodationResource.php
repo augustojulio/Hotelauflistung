@@ -14,6 +14,17 @@ class AccomodationResource extends JsonResource
      */
     public function toArray($request)
     {
-        return parent::toArray($request);
+         return [
+        'name' => $this->name,
+        'rating' => $this->rating,
+        'category' => $this->category,
+        'image' => $this->image,
+        'reputation' => $this->reputation,
+        'reputationBadge' => $this->reputationBadge,
+        'price' => $this->price,
+        'availability' => $this->availability,
+        'location' => $this->location,
+      ];
     }
 }
+
