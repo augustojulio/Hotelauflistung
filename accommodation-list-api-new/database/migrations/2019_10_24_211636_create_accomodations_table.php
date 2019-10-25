@@ -19,7 +19,6 @@ class CreateAccomodationsTable extends Migration
             $table->string('name');
             $table->integer('rating');
             $table->string('category');
-            $table->text('location');
             $table->string('image');
             $table->integer('reputation');
             $table->string('reputationBadge');
